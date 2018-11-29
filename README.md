@@ -1,3 +1,11 @@
+
+
+#### Note:
+
+This version was modified by shun14 and was changed to support python3.5 and pytorch 0.4.1.So you can run it on Windows.
+
+
+
 Chinese NER Using Lattice LSTM
 ====
 
@@ -9,9 +17,9 @@ Details will be updated soon.
 
 Requirement:
 ======
-	Python: 2.7   
-	PyTorch: 0.3.0 
-(for PyTorch 0.3.1, please refer [issue#8](https://github.com/jiesutd/LatticeLSTM/issues/8) for a slight modification.)
+	Python: 3.5   
+	PyTorch: 0.4.1 
+
 
 Input format:
 ======
@@ -23,7 +31,7 @@ CoNLL format (prefer BIOES tag scheme), with each character its label for one li
 	华	B-PER
 	莱	I-PER
 	士	E-PER
-
+	
 	我	O
 	跟	O
 	他	O
